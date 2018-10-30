@@ -1,72 +1,107 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Miguel
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Zavala 
+about:
+  Hello my name is Miguel Zavala, I'm a javascript lover and I'm fascinate with the tech world, I've worked with technologies like  React, NodeJS, React-Native, Webpack, Mongdb and all related with Javascript, In my last job I developed a Isomorphic Web App for Grupo Imagen.  
+position: Web Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: January 8, 1992
+  location: Vhsa. Tab
 
 experience:
-- company: Company A
+- company: Grupo Imagen Multimedios
   position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+  timeperiod: since March 2018
+  description: I worked as a web developer with Frameworks like Drupal and Symfony, In all this time within the enterprise I suggested begun to use tecnologies like React, Vue, Angular and Nodejs. Recently all mobile websites inside the company they've begun to migrate toward React and Nodejs.    My most bigger achievement in this enterprise was make a progressive web app with all standards provided for Google like AMP. Always caring the first render time. A website made with this methodology is https://m.actitudfem.com/ .
+  website: https://m.actitudfem.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Incubasoft
+  position: Developer jr
+  timeperiod: since March 2015
+  description: I worked as a frontend and backend developer with frameworks like Django, Bootstrap, Jquery, and materialize. Incubasoft was created under the merge of two startups which were Comunicat and AgaveSoft.
+  website: https://www.incubasoft.com/
+  
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
 
 education:
-- degree: Master of Arts
+- degree: Computer System Engineer
   timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  description: Graduated from Instituto Tecnologico de Villahermosa.
+  #website: https://example.com
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
+- name: React
+  level: 90
+- name: React-Native
+  level: 85  
 - name: Node.js
   level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: GIT
+  level: 85  
+- name: CSS3
+  level: 95
+- name: PostCss
+  level: 90  
+- name: AMP
+  level: 80  
+- name: SQL
+  level: 80      
+- name: Nginx
   level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Drupal
+  level: 70  
+- name: PHP
+  level: 70  
+
+knowledge: Also I prefer made my own build with technologies like webpack and gulp, Using libraries from npm.
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: ActitudFem
+  platform: React | Nodejs | AMP
+  description: Progressive Web App from ImagenDigital made with React and Nodejs retrieve data from API made with Drupal.
+  url: https://m.actitudfem.com/
 
-hobbies:
+- name: Cocina Delirante
+  platform: Drupal | Handlebars | AMP
+  description: A MVC made with drupal using Handlebars like template engine and AMP.
+  url: https://www.cocinadelirante.com/
+
+- name: Me lo dijo lola
+  platform: Drupal | Handlebars | AMP
+  description: A MVC made with drupal using Handlebars like template engine and AMP.
+  url: https://www.melodijolola.com/
+
+- name: Keflapp | App for customers
+  platform: React-Native | NodeJS | Express |
+  description:  Just a little project made with React-native retrieve data from API made with Nodejs, Express and a bit of Socket.IO for consume a Gas Service 💼 
+  url: https://play.google.com/store/apps/details?id=com.kefflapp
+
+- name: KeflappChofer | App for Drivers
+  platform: React-Native | NodeJS | Express |
+  description:  Just a little project made with React-native retrieve data from API made with Nodejs, Express and a bit of Socket.IO for consume a Gas Service  💼 
+  url: https://play.google.com/store/apps/details?id=com.keflachofer
+
+- name: Clouddy.
+  platform: HTML5 | Jquery
+  description: A simple website for the company ramagas 💼 
+  url: https://clouddy.com.mx/  
+
+- name: RamaGas.
+  platform: HTML5 | Jquery
+  description: A simple website for the company ramagas 💼 
+  url: http://www.ramagas.com.mx/
+
+- name: Consultoria Juridica Gaytan y Asociados.
+  platform: HTML5 | Jquery
+  description: A simple website for the company ramagas 💼 
+  url: https://consultoriajuridicagaytanyasociados.com/  
+
+
+  hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
   url: https://example.com
@@ -75,18 +110,17 @@ hobbies:
   iconClass: fa fa-pencil
   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+#contributions:
+# name: best-resume-ever
+#  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: miguelzavalac@gmail.com
+  phone: (044) 9931373754
+  street: Centro.
+  city: Villahermosa Tab.
+  #website: johndoe.com
+  github: zeroxys
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

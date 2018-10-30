@@ -144,7 +144,7 @@
             <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content-grid-projects">
             <a v-for="(project, index) in person.projects" :key="index"
               class="section-content__item-grid"
               :href="project.url">
@@ -153,6 +153,7 @@
               <span class="section-content__text"> {{ project.description }} </span>
             </a>
           </div>
+          
         </div>
 
         <div
