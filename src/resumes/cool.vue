@@ -97,45 +97,8 @@
           <div class="section-headline">
             <i class="section-headline__icon material-icons">work</i>{{ lang.experience }}
           </div>
-
-          <div class="section-content">
-            <a
-              v-for="(experience, index) in person.experience"
-              :key="index"
-              class="section-content__item"
-              :href="experience.website">
-
-              <span class="section-content__header">{{ experience.position }}</span>
-              <span class="section-content__subheader">
-                {{ experience.company }}
-                <span class="section-content__plain">{{ experience.location }}</span>
-              </span>
-
-              <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
-            </a>
-          </div>
         </div>
 
-        <div class="section">
-          <div class="section-headline">
-            <i class="section-headline__icon material-icons">school</i>{{ lang.education }}
-          </div>
-
-          <div class="section-content">
-            <a
-              v-for="(education, index) in person.education"
-              class="section-content__item"
-              :key="index"
-              :href="education.website">
-
-              <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
-              <span class="section-content__text"> {{ education.timeperiod }} </span>
-              <span class="section-content__text--light"> {{ education.description }} </span>
-            </a>
-          </div>
-        </div>
 
         <div
           v-if="person.projects"
@@ -316,7 +279,7 @@ a {
 
   &__item {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   &__header {
@@ -361,6 +324,7 @@ a {
   flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
+
 }
 
 .grid-item {

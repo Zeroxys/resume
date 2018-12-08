@@ -4,7 +4,8 @@ name:
   middle:
   last: Zavala 
 about:
-  Hello my name is Miguel Zavala, I'm a javascript lover and I'm fascinate with the tech world, I've worked with technologies like  React, NodeJS, React-Native, Webpack, Mongdb and all related with Javascript, In my last job I developed a Isomorphic Web App for Grupo Imagen.  
+  Hello my name is Miguel Zavala, I'm a javascript lover and I'm fascinate with the tech world, I've worked with technologies like  React, NodeJS, React-Native, Webpack, Mongdb and all related with Javascript, 
+  In my last job I developed a Isomorphic Web App for Grupo Imagen.
 position: Web Developer
 
 birth:
@@ -12,25 +13,7 @@ birth:
   location: Vhsa. Tab
 
 experience:
-- company: Grupo Imagen Multimedios
-  position: Developer
-  timeperiod: since March 2018
-  description: I worked as a web developer with Frameworks like Drupal and Symfony, In all this time within the enterprise I suggested begun to use tecnologies like React, Vue, Angular and Nodejs. Recently all mobile websites inside the company they've begun to migrate toward React and Nodejs.    My most bigger achievement in this enterprise was make a progressive web app with all standards provided for Google like AMP. Always caring the first render time. A website made with this methodology is https://m.actitudfem.com/ .
-  website: https://m.actitudfem.com
-
-- company: Incubasoft
-  position: Developer jr
-  timeperiod: since March 2015
-  description: I worked as a frontend and backend developer with frameworks like Django, Bootstrap, Jquery, and materialize. Incubasoft was created under the merge of two startups which were Comunicat and AgaveSoft.
-  website: https://www.incubasoft.com/
-  
-
-
-education:
-- degree: Computer System Engineer
-  timeperiod: March 2012 - December 2013
-  description: Graduated from Instituto Tecnologico de Villahermosa.
-  #website: https://example.com
+ 
 
 # skill level goes 0 to 100
 skills:
@@ -62,53 +45,60 @@ knowledge: Also I prefer made my own build with technologies like webpack and gu
 projects:
 - name: ActitudFem
   platform: React | Nodejs | AMP
-  description: Progressive Web App from ImagenDigital made with React and Nodejs retrieve data from API made with Drupal.
+  description: A website made with Drupal and Simfony for the webapps, 
+    the mobile version has started to migrate a other tecnology made it a Isomorphic-web-app using React from the server-side.
   url: https://m.actitudfem.com/
+
+- name: Salud180
+  platform: React | Nodejs | AMP
+  description: A website made with Drupal and Simfony for the webapps, 
+    the mobile version has started to migrate a other tecnology made it a Isomorphic-web-app using React from the server-side.
+  url: https://www.salud180.com/
 
 - name: Cocina Delirante
   platform: Drupal | Handlebars | AMP
-  description: A MVC made with drupal using Handlebars like template engine and AMP.
+  description: A MVC made with drupal using Handlebars like template engine and using the best practices from AMP. Using SQL as database and a WEB API implement with nodejs.
   url: https://www.cocinadelirante.com/
 
 - name: Me lo dijo lola
   platform: Drupal | Handlebars | AMP
-  description: A MVC made with drupal using Handlebars like template engine and AMP.
+  description: A MVC made with drupal using Handlebars like template engine and using the best practices from AMP. Using SQL as database and a WEB API implement with nodejs.
   url: https://www.melodijolola.com/
 
 - name: Keflapp | App for customers
-  platform: React-Native | NodeJS | Express |
-  description:  Just a little project made with React-native retrieve data from API made with Nodejs, Express and a bit of Socket.IO for consume a Gas Service 💼 
+  platform: Drupal | Handlebars | AMP
+  description: A little project made with React-native and Google Maps for retrieve the ubication from another devices, the API was made with Nodejs, Express and a bit of Socket.IO.
   url: https://play.google.com/store/apps/details?id=com.kefflapp
 
 - name: KeflappChofer | App for Drivers
-  platform: React-Native | NodeJS | Express |
-  description:  Just a little project made with React-native retrieve data from API made with Nodejs, Express and a bit of Socket.IO for consume a Gas Service  💼 
+  platform: Drupal | Handlebars | AMP
+  description: A little project made with React-native and Google Maps for retrieve the ubication from another devices, the API was made with Nodejs, Express and a bit of Socket.IO.
   url: https://play.google.com/store/apps/details?id=com.keflachofer
 
-- name: Clouddy.
-  platform: HTML5 | Jquery
-  description: A simple website for the company ramagas 💼 
-  url: https://clouddy.com.mx/  
+- name: OpenKardex.
+  platform: HTML5 | Jquery | Django | SQL
+  description: A online-courses-platform  made with Django, AWS and Postgresql.
+  url: http://blog.openkardex.com/
 
 - name: RamaGas.
   platform: HTML5 | Jquery
-  description: A simple website for the company ramagas 💼 
+  description: Was a website made with HTML5, Jquery, Sql.
   url: http://www.ramagas.com.mx/
 
 - name: Consultoria Juridica Gaytan y Asociados.
   platform: HTML5 | Jquery
-  description: A simple website for the company ramagas 💼 
-  url: https://consultoriajuridicagaytanyasociados.com/  
+  description: A simple website for a Consultory.
+  url: https://consultoriajuridicagaytanyasociados.com/
 
 
-  hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+#  hobbies:
+#- name: Video Games
+#  iconClass: fa fa-gamepad
+#  url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+#- name: Drawing
+#  iconClass: fa fa-pencil
+#  url: https://example.com
 
 #contributions:
 # name: best-resume-ever
